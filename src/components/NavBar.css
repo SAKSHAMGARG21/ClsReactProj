@@ -1,0 +1,7 @@
+.mainnav{
+    display: flex;
+    gap: 1rem;
+    background-color: blueviolet;
+    line-height: 5rem;
+    font-size: 25px;
+}

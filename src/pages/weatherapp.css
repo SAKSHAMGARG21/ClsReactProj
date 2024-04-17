@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#item1 span{
+    margin:0rem 2rem;
+    padding: 8px;
+}
+
+#item1{
+    margin:1rem 2rem;
+}
+
+.weatherContainer button, input{
+    border: none;
+    background-color: rgb(41 40 40 / 55%);
+    border-radius: 4px;
+    padding: 8px;
+    text-align: left;
+}
+.formCont img{
+    filter: invert(1);   
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
+.formCont span{
+    padding: 7px;
+    border-radius: 4px;
+    background-color: rgb(41 40 40 / 55%);
+}
+
+body {
+    height: 96vh;
+    background: rgb(6, 6, 53);
+    background-image: linear-gradient(126deg, rgba(6, 6, 53, 1) 0%, rgba(13, 13, 148, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+.grantLocCont {
+    display: none;
+}
+.grantLocCont img,p,button{
+    margin: 1rem 0;
+}
+/* .grantLocCont.active{
+    display: block;
+} */
+
+.formCont{
+    display: none;
+}
+/* 
+.formCont.active{
+    display: block;
+} */
+
+.loading{
+    display: none;
+}
+/* .loading.active{
+    display: block;
+} */
+
+.yourWeatherApp{
+    display: none;
+    margin-top: 2rem;
+}
+/* .yourWeatherApp.active{
+    display: block;
+} */
+
+
+
+#namebox span{
+    position: relative;
+    top: -12px;
+}
+.loading img{
+    filter: grayscale(1);
+    mix-blend-mode: color-burn;
+}
+
+.container {
+    /* border: 2px solid red; */
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.items{
+    margin-bottom: 1rem;
+}
+#bottomcardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0px;
+}
+#bottomcardbox figure{
+    background-color: rgba(240, 248, 255, 0.416);
+    border-radius: 4px;
+    width: 11rem;
+}
+#bottomcardbox figure img,div{
+    margin:.5rem 0px;
+}
+
+
+
+.currentTab{
+    color: rgb(255, 255, 255);
+    background-color: rgba(189, 177, 177, 0.55);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.active{
+    display: block;
+}
