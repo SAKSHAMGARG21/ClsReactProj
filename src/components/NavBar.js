@@ -6,12 +6,13 @@ function NavBar(){
     return(
         <div>
             <nav className="mainnav"> 
-                <Link to="/">Home</Link>
-                <Link to="/About">About</Link>
-                <Link to="/Contact">Contact Us</Link>
+                <Link to="/">Todos</Link>
+                <Link to="/WApp">Weather App</Link>
+                <Link to="/cc">Currency Converter</Link>
+                <Link to="/game">Game</Link>
             </nav>
         </div>
-    )
+    );
 }
 
 export default NavBar

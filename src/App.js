@@ -1,24 +1,24 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './pages/Home.js';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import About from './pages/WApp.js';
+import CurrencyConv from './pages/CurrencyConv.js';
 import NavBar from "./components/NavBar.js"
+import TodoApp from "./pages/TodoApp.js"
+import Game from "./pages/Game.js"
 
 function App() {
   return (
     <div>
-      
       <BrowserRouter>
-      <NavBar />
+        <NavBar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/" element={<TodoApp />}></Route>
+          <Route path="/WApp" element={<About />}></Route>
+          <Route path="/cc" element={<CurrencyConv />}></Route>
+          <Route path="/game" element={<Game />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
-
   );
 }
 

@@ -1,9 +1,9 @@
 
-function About(){
+function Game(){
     return (
         <div>
             <h2>
-                About Pages!
+                Game Pages!
             </h2>
             <main>
                 <p>
@@ -14,4 +14,4 @@ function About(){
     )
 }
 
-export default About
+export default Game
