@@ -6,11 +6,11 @@ import useCurrencyInfo from '../hooks/useCurrencyinfo.js'
 
 
 function CurrencyConv() {
-
-  const [amount, setAmount] = useState(0)
+        
+  const [amount, setAmount] = useState()
   const [from, setFrom] = useState("usd")
   const [to, setTo] = useState("inr")
-  const [convertedAmount, setConvertedAmount] = useState(0)
+  const [convertedAmount, setConvertedAmount] = useState()
 
   const currencyInfo = useCurrencyInfo(from)
 
@@ -47,7 +47,7 @@ function CurrencyConv() {
                             label="From"
                             amount={amount}
                             currencyOptions={options}
-                            onCurrencyChange={(currency) => setAmount(currency)}
+                            onCurrencyChange={(currency) => setFrom(currency)}
                             selectCurrency={from}
                             onAmountChange={(amount) => setAmount(amount)}
                         />
