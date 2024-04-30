@@ -1,23 +1,3 @@
-// import todoApp from "../components/todoApp"
-
-
-// function Home(){
-//     return (
-
-//         <div>
-//             <h2>
-//                 home Pages!
-//             </h2>
-
-
-//             <todoApp></todoApp>
-//         </div>
-//     )
-// }
-
-// export default Home
-
-
 import { useEffect, useState } from "react";
 import { TodoProvider } from "../context";
 import { TodoForm } from "../components";
@@ -65,7 +45,7 @@ function TodoApp() {
         <TodoProvider
             value={{ addTodo, updateTodo, deleteTodo, toggleTodo, todos }}
         >
-            <div className="bg-[#172842] min-h-screen py-8">
+            <div className="bg-[rgb(23,40,66)] min-h-screen py-8">
                 <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
                     <h1 className="text-2xl font-bold text-center mb-8 mt-2">
                         Manage Your Todos
