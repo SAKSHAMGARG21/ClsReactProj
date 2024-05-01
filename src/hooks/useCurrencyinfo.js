@@ -41,7 +41,7 @@ function useCurrencyInfo(currency) {
 
     useEffect(() => {
         fetchCurrencies();
-    }, [currency]);
+    }, );
     // console.log(data);
     return data;
 }
