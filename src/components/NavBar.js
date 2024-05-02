@@ -6,10 +6,15 @@ function NavBar(){
     return(
         <div>
             <nav className="mainnav"> 
-                <Link to="/">Todos</Link>
+                <Link to="/main/td">Todos</Link>
+                <Link to="/main/WApp">Weather App</Link>
+                <Link to="/main/cc">Currency Converter</Link>
+                <Link to="/main/game">Game</Link>
+
+                {/* <Link to="/td">Todos</Link>
                 <Link to="/WApp">Weather App</Link>
                 <Link to="/cc">Currency Converter</Link>
-                <Link to="/game">Game</Link>
+                <Link to="/game">Game</Link> */}
             </nav>
         </div>
     );
