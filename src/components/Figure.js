@@ -2,7 +2,7 @@ import React from 'react'
 import WrongLetters from './WrongLetters'
 
 const Figure = ({wrongLetters}) => {
-  const errors = WrongLetters.length
+  const errors = wrongLetters.length
 
   return (
     
@@ -28,4 +28,4 @@ const Figure = ({wrongLetters}) => {
   )
 }
 
-export default Figure
+export default Figure
