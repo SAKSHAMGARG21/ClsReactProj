@@ -6,6 +6,9 @@
     text-align: center;
     color: white;
 }
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
 #item1 span{
     margin:0rem 2rem;

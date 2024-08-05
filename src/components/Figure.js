@@ -1,5 +1,5 @@
 import React from 'react'
-import WrongLetters from './WrongLetters'
+// import WrongLetters from './WrongLetters'
 
 const Figure = ({wrongLetters}) => {
   const errors = wrongLetters.length
@@ -28,4 +28,4 @@ const Figure = ({wrongLetters}) => {
   )
 }
 
-export default Figure
+export default Figure
